@@ -44,7 +44,7 @@
       <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="57" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1392271246000" expanded="true" signature="0:82" placeholder="import ..." />
+                <marker date="1392271246000" expanded="true" signature="146:230" placeholder="..." />
+                <marker date="1392271246000" expanded="true" signature="163:230" placeholder="..." />
+                <marker date="1392271246000" expanded="true" signature="300:396" placeholder="..." />
+                <marker date="1392271246000" expanded="true" signature="317:396" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -82,7 +86,18 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.054545455" vertical-offset="0" max-vertical-offset="825">
+            <state line="63" column="0" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.6415441" vertical-offset="596" max-vertical-offset="1200">
+              <folding>
+                <element signature="e#24#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixins.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/mixins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="6" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0" vertical-offset="1514" max-vertical-offset="2955">
               <folding />
             </state>
           </provider>
@@ -91,8 +106,10 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VProject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-              <folding />
+            <state line="15" column="6" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,6 +127,7 @@
         <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/VProject/settings.py" />
         <option value="$PROJECT_DIR$/users/serializers.py" />
+        <option value="$PROJECT_DIR$/VProject/urls.py" />
         <option value="$PROJECT_DIR$/users/views.py" />
       </list>
     </option>
@@ -408,6 +426,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="VProject.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -424,6 +443,8 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
     <list size="1">
@@ -469,7 +490,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -529,7 +550,9 @@
     <entry file="file://$PROJECT_DIR$/VProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -564,7 +587,9 @@
     <entry file="file://$PROJECT_DIR$/VProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,7 +624,9 @@
     <entry file="file://$PROJECT_DIR$/VProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,7 +640,9 @@
     <entry file="file://$PROJECT_DIR$/VProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,25 +656,13 @@
     <entry file="file://$PROJECT_DIR$/VProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VProject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
           <folding />
@@ -677,15 +694,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="57" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1392271246000" expanded="true" signature="0:82" placeholder="import ..." />
+            <marker date="1392271246000" expanded="true" signature="146:230" placeholder="..." />
+            <marker date="1392271246000" expanded="true" signature="163:230" placeholder="..." />
+            <marker date="1392271246000" expanded="true" signature="300:396" placeholder="..." />
+            <marker date="1392271246000" expanded="true" signature="317:396" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.0" vertical-offset="1514" max-vertical-offset="2955">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.054545455" vertical-offset="0" max-vertical-offset="825">
-          <folding />
+        <state line="63" column="0" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.6415441" vertical-offset="596" max-vertical-offset="1200">
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
