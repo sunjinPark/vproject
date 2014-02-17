@@ -10,6 +10,7 @@ router = routers.SimpleRouter(trailing_slash=False)
 
 router.register(r'users', users_view.UserListCreateView)
 router.register(r'users', users_view.UserViewSet)
+router.register(r'tokens', users_view.TokensViewSet)
 
 urlpatterns = patterns('',
     # Examples:

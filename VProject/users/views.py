@@ -72,3 +72,30 @@ class UserViewSet(viewsets.GenericViewSet,
         return super(UserViewSet, self).retrieve(request, *args, **kwargs)
 
 
+class TokensViewSet(viewsets.GenericViewSet,
+                    mixins.CreateModelMixin):
+    """
+    아이디와 패스워드를 이용하여
+    API 사용을 위한 인증 토큰을 생성한다.
+
+    """
+    permission_classes = (AllowAny,)
+    renderer_classes = (UnicodeJSONRenderer, )
+    serializer_class = AuthTokenSerializer
+    model = Token
+
+    def initial(self, request, *args, **kwargs):
+        super(TokensViewSet, self).initial(request, *args, **kwargs)
+
+        if isinstance(request.DATA, dict):
+            for key in request.DATA.keys():
+                if type(request.DATA[key]) is list:
+                    request.DATA[key] = request.DATA[key][0]
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.serializer_class(data=request.DATA)
+        if serializer.is_valid():
+            token, created = Token.objects.get_or_create(user=serializer.object['user'])
+            id_num = serializer.object['user'].id
+            return Response({'token': token.key, 'id': id_num})
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
