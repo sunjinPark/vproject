@@ -1,16 +1,13 @@
 #-*- coding: utf-8 -*-
 from django.contrib.auth.models import User
 
-from rest_framework import viewsets, mixins, status, generics
+from rest_framework import viewsets, mixins, status
 from rest_framework.response import Response
-from rest_framework.authtoken.models import Token
-from rest_framework.authtoken.serializers import AuthTokenSerializer
-from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import AllowAny, IsAdminUser, IsAuthenticated
 from rest_framework.renderers import UnicodeJSONRenderer, BrowsableAPIRenderer
 
 from serializers import CoupleSerializer
-from models import Couples
+
 
 class CoupleListView(viewsets.GenericViewSet,
                      mixins.ListModelMixin,
@@ -19,12 +16,10 @@ class CoupleListView(viewsets.GenericViewSet,
                      mixins.RetrieveModelMixin,
                      mixins.CreateModelMixin):
     model = User
-   # authentication_classes = (TokenAuthentication, )
     permission_classes = (AllowAny,)
     queryset = User.objects.all()
     serializer_class = CoupleSerializer
     renderer_classes = (UnicodeJSONRenderer, )
-
 
     def list(self, request, *args, **kwargs):
         return super(CoupleListView, self).list(self, request, *args, **kwargs)
@@ -32,13 +27,14 @@ class CoupleListView(viewsets.GenericViewSet,
     def create(self, request, *args, **kwargs):
         serializer = CoupleSerializer(data=request.DATA)
         if serializer.is_valid():
+            print 'hello'
             User.objects._create_user(
                 couple_name=serializer.data['couple_name'],
                 man=serializer.data['man'],
                 woman=serializer.data['woman'],
                 d_day=serializer.data['d_day'],
-
             )
+            print 'hello2'
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         else:
             print serializer._errors

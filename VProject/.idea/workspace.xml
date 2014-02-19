@@ -6,10 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/test.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392619717145" ignored="false" />
     <file path="/urls.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392639715089" ignored="false" />
-    <file path="/models.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392798419812" ignored="false" />
-    <file path="/serializers.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392735580424" ignored="false" />
-    <file path="/views.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392735978342" ignored="false" />
-    <file path="/settings.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392639898272" ignored="false" />
+    <file path="/models.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392809632468" ignored="false" />
+    <file path="/serializers.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392829054626" ignored="false" />
+    <file path="/views.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392828559568" ignored="false" />
+    <file path="/settings.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392810183371" ignored="false" />
     <file path="/a.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392639771902" ignored="false" />
     <file path="/related.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392643153949" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +36,7 @@
           <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/VProject/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="30" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+                <state line="52" column="0" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -96,19 +96,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/VProject/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="37" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="13" column="38" selection-start="426" selection-end="426" vertical-scroll-proportion="0.36448598">
+                  <folding>
+                    <element signature="e#0#51#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/users/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="14" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.48850575">
+                <state line="38" column="32" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -118,10 +120,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="serializers.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/couples/serializers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="30" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+                <state line="4" column="61" selection-start="103" selection-end="129" vertical-scroll-proportion="0.103270225">
+                  <folding>
+                    <element signature="e#0#38#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/serializers.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="573" column="0" selection-start="19925" selection-end="19925" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -130,7 +143,7 @@
           <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/couples/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="0" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+                <state line="36" column="25" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="e#23#66#0" expanded="true" />
                   </folding>
@@ -138,10 +151,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/couples/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="14" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6629834">
+                <state line="11" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.6">
                   <folding>
                     <element signature="e#24#52#0" expanded="true" />
                   </folding>
@@ -166,12 +179,13 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/users/__init__.py" />
         <option value="$PROJECT_DIR$/VProject/urls.py" />
-        <option value="$PROJECT_DIR$/VProject/settings.py" />
         <option value="$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/fields/related.py" />
         <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/VProject/settings.py" />
+        <option value="$PROJECT_DIR$/couples/models.py" />
+        <option value="$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/serializers.py" />
         <option value="$PROJECT_DIR$/couples/views.py" />
         <option value="$PROJECT_DIR$/couples/serializers.py" />
-        <option value="$PROJECT_DIR$/couples/models.py" />
       </list>
     </option>
   </component>
@@ -574,7 +588,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -583,15 +597,15 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12266858" sideWeight="0.7593516" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17870371" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24064837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17870371" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24064837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -663,18 +677,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="0" selection-start="15204" selection-end="15204" vertical-scroll-proportion="0.74880385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="16" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.5673759">
@@ -707,20 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="30" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -749,34 +737,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/couples/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.48850575">
+        <state line="38" column="32" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/couples/serializers.py">
+    <entry file="file://$PROJECT_DIR$/VProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+        <state line="52" column="0" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/couples/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6629834">
+        <state line="11" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.6">
           <folding>
             <element signature="e#24#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="428" selection-end="428" vertical-scroll-proportion="0.15845071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couples/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="25" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#23#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="573" column="0" selection-start="19925" selection-end="19925" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="426" selection-end="426" vertical-scroll-proportion="0.36448598">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couples/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="61" selection-start="103" selection-end="129" vertical-scroll-proportion="0.103270225">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

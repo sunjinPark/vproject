@@ -8,6 +8,10 @@ class Couples(models.Model):
     woman = models.ForeignKey(User, related_name='+', unique=True)
     couple_name = models.CharField(primary_key=True, max_length=50, null=False, help_text='커플 닉네임', unique=True)
     d_day = models.DateField()
+
+
+
+
 """
 * 현재 상황 요약 *
 PostMan에
@@ -37,6 +41,7 @@ Foreign Key를 사용할 때, abstract models을 만들거나 special syntax를 
 """
 
 """
+
     class Meta:
         unique_together = ('man', 'woman')
 
