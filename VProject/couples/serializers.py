@@ -3,8 +3,12 @@ from models import Couples
 
 
 class CoupleSerializer(serializers.HyperlinkedModelSerializer):
-    #get, update, delete post list
+  #  man = serializers.RelatedField(many=True)
+ #   woman = serializers.RelatedField(many=True)
+
+    #get, update, delete post, list
     class Meta:
         model = Couples
-        fields = ('couple_name', 'man', 'woman', 'd_day')
+        fields = ('couple_name', 'man', 'woman', 'd_day',)
+
 

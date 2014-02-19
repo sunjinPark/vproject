@@ -5,10 +5,13 @@
     <ignored path="VProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392619717145" ignored="false" />
-    <file path="/urls.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392619872754" ignored="false" />
-    <file path="/models.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392623158507" ignored="false" />
-    <file path="/serializers.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392622747403" ignored="false" />
-    <file path="/views.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392623270297" ignored="false" />
+    <file path="/urls.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392639715089" ignored="false" />
+    <file path="/models.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392798419812" ignored="false" />
+    <file path="/serializers.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392735580424" ignored="false" />
+    <file path="/views.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392735978342" ignored="false" />
+    <file path="/settings.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392639898272" ignored="false" />
+    <file path="/a.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392639771902" ignored="false" />
+    <file path="/related.py" changelist="8145d965-c28b-4523-9f14-a6e65cc18d95" time="1392643153949" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,7 @@
           <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/VProject/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="1" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
+                <state line="37" column="30" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -51,7 +54,16 @@
           <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/manage.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="10" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VProject/wsgi.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="31" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -60,28 +72,35 @@
           <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/users/serializers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="31" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+                <state line="15" column="57" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/couples/models.py">
+            <entry file="file://$PROJECT_DIR$/users/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="30" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#24#52#0" expanded="true" />
-                  </folding>
+                <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/users/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/VProject/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="37" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -89,10 +108,8 @@
           <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/users/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="11" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7155963">
-                  <folding>
-                    <element signature="e#24#67#0" expanded="true" />
-                  </folding>
+                <state line="27" column="14" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.48850575">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -104,28 +121,30 @@
           <file leaf-file-name="serializers.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/couples/serializers.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+                <state line="8" column="30" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/couples/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="0" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
                   <folding>
-                    <element signature="e#0#38#0" expanded="true" />
+                    <element signature="e#23#66#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/contrib/auth/models.py">
+          <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/couples/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="374" column="71" selection-start="13414" selection-end="13414" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/couples/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
+                <state line="26" column="14" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6629834">
+                  <folding>
+                    <element signature="e#24#52#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -144,13 +163,15 @@
       <list>
         <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/users/serializers.py" />
-        <option value="$PROJECT_DIR$/VProject/settings.py" />
-        <option value="$PROJECT_DIR$/users/views.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/users/__init__.py" />
         <option value="$PROJECT_DIR$/VProject/urls.py" />
+        <option value="$PROJECT_DIR$/VProject/settings.py" />
+        <option value="$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/fields/related.py" />
+        <option value="$PROJECT_DIR$/users/views.py" />
+        <option value="$PROJECT_DIR$/couples/views.py" />
         <option value="$PROJECT_DIR$/couples/serializers.py" />
         <option value="$PROJECT_DIR$/couples/models.py" />
-        <option value="$PROJECT_DIR$/couples/views.py" />
       </list>
     </option>
   </component>
@@ -164,6 +185,18 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Django</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
           </State>
           <State>
             <id>Python</id>
@@ -203,6 +236,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,21 +283,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../env/bin/python" />
     <property name="FullScreen" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -377,29 +424,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="VProject" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +445,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="VProject" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -490,8 +537,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Django server.VProject" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.VProject" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -533,10 +580,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16284074" sideWeight="0.7593516" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12266858" sideWeight="0.7593516" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17870371" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24064837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -616,119 +663,121 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/VProject/settings.py">
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/core/management/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VProject/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="391" column="0" selection-start="15204" selection-end="15204" vertical-scroll-proportion="0.74880385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="16" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.5673759">
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1494" column="12" selection-start="70184" selection-end="70186" vertical-scroll-proportion="0.33252132">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/relations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="492" column="23" selection-start="18423" selection-end="18423" vertical-scroll-proportion="0.0011641444">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VProject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/rest_framework/mixins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.02586207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="1" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
+        <state line="10" column="31" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="2" column="37" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/VProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+        <state line="37" column="30" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/contrib/auth/models.py">
+    <entry file="file://$PROJECT_DIR$/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="71" selection-start="13414" selection-end="13414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/couples/serializers.py">
+    <entry file="file://$PROJECT_DIR$/users/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state line="15" column="57" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/couples/models.py">
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python2.7/site-packages/django/contrib/auth/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+        <state line="453" column="7" selection-start="16558" selection-end="16558" vertical-scroll-proportion="0.43771827">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couples/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#24#52#0" expanded="true" />
+            <element signature="e#23#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.7155963">
-          <folding>
-            <element signature="e#24#67#0" expanded="true" />
-          </folding>
+        <state line="27" column="14" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.48850575">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/couples/views.py">
+    <entry file="file://$PROJECT_DIR$/couples/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="30" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/couples/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6629834">
+          <folding>
+            <element signature="e#24#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
